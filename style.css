@@ -4,6 +4,11 @@ header {
     border-bottom: 1px solid #ccc;
 }
 
+body{
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
 .header__content {
     display: flex;
     justify-content: space-between;
@@ -68,10 +73,14 @@ header {
 
 .btn {
     margin-top: 5px;
-    padding: 10px;
+    padding: 4px;
+    font-size:14px ;
+    width:190px ;
+    height: 30px;
     border: 1px solid black;
     background: rgb(255, 0, 0);
     cursor: pointer;
+    border-radius:20px ;
 }
 
 footer {
@@ -80,9 +89,6 @@ footer {
     background: #ddd;
     margin-top: 30px;
 }
-
-
-CSS
 
 
 header {
@@ -113,8 +119,9 @@ header {
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-    padding: 30px;
+    gap: 7px;
+    padding:30px;
+   
 }
 
 .curso {
@@ -124,6 +131,7 @@ header {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 10px;
 }
 
@@ -159,6 +167,9 @@ header {
     border: 1px solid black;
     background: rgb(255, 0, 0);
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
@@ -166,4 +177,33 @@ footer {
     padding: 20px;
     background: #ddd;
     margin-top: 30px;
+}
+
+.btn-primario{
+
+    background-color: white;
+    color:orangered ;
+    border: 2px solid #e74c3c;
+    margin-top: 5px;
+    padding: 4px;
+    font-size:14px ;
+    width:190px ;
+    height: 30px;
+    border-radius:20px ;
+    cursor: pointer;
+
+}
+
+.categorias{
+justify-content: center;
+border-radius: 70px;
+ 
+}
+
+.botao{
+display: flex;
+flex-direction: column;
+gap:15px ;
+justify-content: center;
+width:250px ;
 }
